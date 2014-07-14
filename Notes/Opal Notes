@@ -1,0 +1,39 @@
+- Static nature of Opal.LogWriter
+
+
+David:
+	first pass of web page for Opalescent
+
+
+Travis:
+	extra arguments text string processing
+	
+	
+	
+=========
+
+Right now, not much:  Blosum62 and Blosum50 are built-in for amino-acids.  I also allow control of the relative 
+cost of transitions to transversions for DNA (ranging from 0-100%, in integer percents).
+
+I'm not sure what else a user might routinely want to change. A couple other options are:
+
+
+2) distance type:  (used in building the guide tree) kmer-count, normalized cost.  kmer-count is much faster 
+for large inputs (20+ sequences), and gives almost the same recovery on benchmarks.
+
+3) polishing iterations:  default depends on number of sequences and alignment method.  I could provide a 
+function to give the default for a gien number of sequences, if you'd like.
+
+==========
+
+1.1 notes
+
+
+Travis:  	create setNames method for Mesquite passing tree to it
+
+David: give it a starting tree using Tree.EnteredTree.setTreeString(String newick)
+		can accept branch lengths
+		
+	- show tree that Opal used
+		
+	

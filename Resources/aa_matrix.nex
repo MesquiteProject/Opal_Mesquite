@@ -1,0 +1,278 @@
+#NEXUS
+[written Fri Oct 31 07:52:31 MST 2008 by Mesquite  version 2.5+ (build j95) at travis-wheelers-mac-pro.local/192.168.15.12]
+
+BEGIN TAXA;
+	TITLE Taxa;
+	DIMENSIONS NTAX=9;
+	TAXLABELS
+		Lamprey Alligator crow chicken ostrich Chrysem Pelomed Blue_Whale Fin_whale 
+	;
+	BLOCKID WM1148b79af636;
+
+END;
+
+
+BEGIN CHARACTERS;
+	TITLE  'Matrix in file "03a-cytochromeB.nex"';
+	DIMENSIONS  NCHAR=382;
+	FORMAT DATATYPE = Protein GAP = - MISSING = ?;
+	MATRIX
+	Lamprey     -SHQPSIIRKTHPLLSLGNSMLVDLPSPANISAWWNFGSLLSLCLILQIITGLILAMHYTANTELAFSSVMHICRDVNNGWLMRNLHANGASMFFICIYAHIGRGIYYGSYLYKETWNVGVILFALTAATAFVGYVLPWGQMSFWGATVITNLISAMPYVGNDIVVWLWGGFSVSNATLTRFFTFHFILPFILAAMTMIHIMFLHQTGSSNPMGINSNLDKIQFHPYFSFKDILGFVILLGILFMISLLAPNALGEPDNFIYANPLSTPPHIKPEWYFLFAYAILRSVPNKLGGVVALAAAIMILLIIPFTHTSKQRGMQFRPLAQITFWILIADLALLTWLGGEPAEYPFILMTQIASTVYFMIFILVFPILGYLENKMLL
+
+	Alligator   ---MTHQLRKSHPIIKLINRSLIDLPTPSNISAWWNFGSLLGLTLLIQILTGFFLMMHFSSSDTLAFSSVSYTSREVWFGWLIRNLHTNGASLFFMFIFLHIGRGLYYTSYLHESTWNIGVIMLLLLMATAFMGYVLPWGQMSFWGATVITNLLSATPYVGSTVVPWIWGGPSVDNATLTRFTALHFLLPFALLASLITHLIFLHERGSFNPLGISPNADKIPFHPYFTMKDALGAALAASSLLILALYLPALLGDPENFTPANSMITPTHIKPEWYFLFAYAILRSIPNKLGGVLAMFSSILVLFLMPALHTAKQQPMSMRPMSQLLFWALTLDFLLLTWIGGQPVNPPYILIGQTASLFYFIIILILMPMAGLLENKMVE
+
+	crow        ---MGLNLRKNHPLLKIINNSLIDLPTPSNISAWWNFGSLLGLCLIMQIITGLLLAMHYTADTSLAFASVAHMCRDVQFGWLIRNLHANGASFFFICIYLHIGRGFYYGSYLNKETWNIGVILLLTLMATAFVGYVLPWGQMSFWGATVITNLFSAIPYIGQTLVEWLWGGFSVDNPTLTRFFAFHFLLPFVIAGLTLVHLTFLHETGSNNPLGIPSDCDKIPFHPYYSIKDLLGFALMLIPLITLALFSPNLLGDPENFTPANPLATPPHIKPEWYFLFAYAILRSIPNKLGGVLALAASVLVLFLIPLLHVSKQRSMTFRPLSQILFWTLVADLLILTWVGSQPVEHPFIIIGQLASFAYFAIILILFPVVSALENKILK
+
+	chicken     ---MAPNIRKSHPLLKMINNSLIDLPAPSNISAWWNFGSLLAVCLMTQILTGLLLAMHYTADTSLAFSSVAHTCRNVQYGWLIRNLHANGASFFFICIFLHIGRGLYYGSYLYKETWNTGVILLLTLMATAFVGYVLPWGQMSFWGATVITNLFSAIPYIGHTLVEWAWGGFSVDNPTLTRFFALHFLLPFAIAGITIIHLTFLHESGSNNPLGISSDSDKIPFHPYYSFKDILGLTLMLTPFLTLALFSPNLLGDPENFTPANPLVTPPHIKPEWYFLFAYAILRSIPNKLGGVLALAASVLILFLIPFLHKSKQRTMTFRPLSQTLFWLLVANLLILTWIGSQPVEHPFIIIGQMASLSYFTILLILFPTIGTLENKMLN
+
+	ostrich     ---MAPNIRKSHPLLKIINNSLIDLPSPSNISAWWNFGSLLGICLITQILTGLLLAMHYTADTTLAFSSVAHTCRNVQYGWFIRNLHANGASFFFICIYLHIGRGLYYGSYLYKETWNTGVILLLTLMATAFVGYVLPWGQMSFWGATVITNLFSAIPYIGQTLVEWAWGGFSVDNPTLTRFFALHFLLPFVIAGITLVHLTFLHESGSNNPLGIISHCDKIPFHPYFSLKDILGFTLMFIPLLSLAFFSPNLLGDPENFTPANPLATPPHIKPEWYFLFAYAILRSIPNKLGGVLALAASVLILFLIPLLHKSKQRSMTFRPLSQLLFWFLVANLLILTWIGSQPVEHPFIIIGQVASFTYFLILLVLFPAIAALENKMI-
+
+	Chrysem     ---MTMNHRKTHPLTKIINNSFIDL-PSPSNISAWWNFGSLLGTCLILQTITGIFLAMHYSPDISLAFSSVAHITRDVQYGWLIRNMHANGASLFFMCIYLHIGRGLYYGSYLYKETWNTGIILLLLTMATAFMGYVLPWGQMSFWGATVITNLLSAIPFIGNTLVQWIWGGFSVDNATLTRFFTLHFLLPFTIMGLTMVHLLFLHETGSNNPTGLNSNTDKIPFHPYFSYKDLLGVILMLTLLLTLTLFSPNLLGDPDNFTPANPLSTPPHIKPEWYFLFAYAILRSIPNKLGGVLALLLSILVLFLMPALHTSKQRTTQFRPLTQTLFWSFIANLLVLTWIGGQPVENPFITIGQVASILYFSTLLILIPIAGVIENKML
+
+	Pelomed     ---MGTLHLKQNPLLKITNKSLINLPSPSNISAWWNFGSLLGMCLILQITTGIFLAMHYTPNITTAFSSVAHITRDVQYGWLLRGLHANGASIFFICLYFHIGRGIYYGSFLNKKTWYTGIMLLFLTMATAFMGYILPWGQMSFWGATVITNLLSAIPYMGTNLVQWIWGGFSVDNATLTRFFTLHFLTPFIISSLTTIHLLLLHEKGSNNPTGLNSNPDKIPFHPYFSYKDLLGVNLLMIGLLTLTLFLPNLLTDPENFTPANPLSTPKHIKPEWYFLFAYAILRSIPNKLGGVLALLSSVTILFIMPTLHTSKQRSATFRPFTQILFWSPTADLVILTWIGAQPVEDPFIMIGQTASVFYFTLILLLIPLAAILENKLLD
+
+	Blue_Whale  ----MTNIRKTHPLMKIINDAFIDLPTPSNISSWWNFGSLLGLCLIVQILTGLFLAMHYTPDTMTAFSSVTHICRDVNYGWVIRYLHANGASMFFICLYAHMGRGLYYGSHAFRETWNIGVILLFTVMATAFVGYVLPWGQMSFWGATVITNLLSAIPYIGTTLVEWIWGGFSVDKATLTRFFAFHFILPFIIMALAIVHLIFLHETGSNNPTGIPSDMDKIPFHPYYTIKDILGALLLILTLLMLTLFAPDLLGDPDNYTPANPLSTPAHIKPEWYFLFAYAILRSIPNKLGGVLALLLSILVLALIPMLHTSKQRSMMFRPFSQFLFWVLVADLLTLTWIGGQPVEHPYVIVGQLASILYFLLILVLMPVTSLIENKLMK
+
+	Fin_whale   ----MTNIRKTHPLMKIVNDAFVDLPTPSNISSWWNFGSLLGLCLIMQILTGLFLAMHYTPDTTTAFSSVTHICRDVNYGWIIRYLHANGASMFFICLYAHMGRGLYYGSYAFRETWNIGVILLFTVMATAFVGYVLPWGQMSFWGATVITNLLSAIPYIGTTLVEWIWGGFSVDKATLTRFFAFHFILPFIILALAIVHLIFLHETGSNNPTGIPSDMDKIPFHPYHTIKDILGALLLILILLMLTLFAPDLLGDPDNYTPANPLSTPAHIKPEWYFLFAYAILRSIPNKLGGVLALLLSILILAFIPMLHTSNQRSMMFRPFSQFLFWVLVADLLTLTWIGGQPVEHPYMIVGQLASILYFLLILVLMPVTSLIENKLMK
+
+
+;
+
+		BLOCKID WM1148b79af8a0;
+
+
+END;
+
+BEGIN TREES;
+	Title 'Trees from "03a-cytochromeB.nex"';
+	LINK Taxa = Taxa;
+	TRANSLATE
+		1 Lamprey,
+		2 Alligator,
+		3 crow,
+		4 chicken,
+		5 ostrich,
+		6 Chrysem,
+		7 Pelomed,
+		8 Blue_Whale,
+		9 Fin_whale;
+	TREE 'true+' = (1,(((2,(3,(4,5))),(6,7)),(8,9)));
+
+END;
+
+
+BEGIN CODONS;
+	CODESET * UNTITLED   =  universal:  1 -  382;
+
+
+END;
+
+BEGIN MacClade;
+	Version 4.0  84;
+	LastModified -1170153337;
+	FileSettings treewindow '0' '0' '1' '1';
+	Singles 000;
+	Editor 0001100111111110010001001 '0' '24'                 Geneva '9' '100' '1'                 all;
+	EditorPosition '46' '6' '691' '1083';
+	TreeWindowPosition '46' '6' '699' '1102';
+	ListWindow Characters closed Geneva '9' '50' '10' '273' '405'                 000;
+	ListWindow Taxa closed Geneva '9' '50' '10' '273' '377'                 100000;
+	ListWindow Trees closed Geneva '9' '50' '25' '129' '379';
+	ListWindow TypeSets closed Geneva '9' '50' '10' '276' '490';
+	ListWindow WtSets closed Geneva '9' '50' '10' '276' '490';
+	ListWindow ExSets closed Geneva '9' '50' '10' '276' '490';
+	ListWindow CharSets closed Geneva '9' '50' '10' '276' '490';
+	ListWindow TaxSets closed Geneva '9' '50' '10' '276' '490';
+	ListWindow CharPartitions closed Geneva '9' '50' '10' '276' '490';
+	ListWindow CharPartNames closed Geneva '9' '50' '10' '276' '490';
+	ListWindow WtSets closed Geneva '9' '50' '10' '276' '490';
+	ChartWindowPosition '52' '30' '686' '1092';
+	StateNamesSymbols closed Geneva '9' '10' '50' '30' '148' '220';
+	WindowOrder  Tree;
+	OtherSymbols & /                 00 ? -;
+	Correlation '0' '0' '1000' '0' '0'                 10011010;
+	Salmo 00000001;
+	EditorFile '2';
+	ExportHTML _ MOSS '100'                 110000;
+	PrettyPrint 10;
+	TreeLegendPosition '662' '909' '64' '93';
+	EditorToolsPosition '579' '46' '115' '165';
+	TreeToolsPosition '584' '9' '126' '138';
+	TreeWindowProgram 10;
+	TreeWindow 0000;
+	Continuous '0' '3'                 1;
+	Calculations 0000001;
+	SummaryMode '0' '0'                 0;
+	Charts  Geneva '9' (                normal )                 0010;
+	NexusOptions '0' '0' '50'                 001011011;
+	TipLabel '1';
+	TreeFont  Geneva '9' (                normal );
+	TreeShape  1.0 1.0 0100;
+	TraceLabels 0101;
+	ChartColors '0' '0' '65535' '9' '0'                 1;
+	ChartBiggestSpot 1;
+	ChartPercent 10;
+	ChartBarWidth '10'                 1;
+	ChartVerticalAxis 10101;
+	ChartMinMax '0';
+	TraceAllChangesDisplay '1'                 1;
+	BarsOnBranchesDisplay '0' '0' '60000' '10000' '10000' '10000' '10000' '60000' '65000' '65000' '65000' '6' '1'                 0000101;
+	ContinuousBranchLabels 0;
+	AllStatesBranchLabels 1;
+	IndexNotation '2'                 1;
+	PrintTree  10.00 '2' '2' '2' '2' '2' '2' '2' '2' '2' '2' '2'                 Geneva '9' (                normal )                 Geneva '10' (                normal )                 Geneva '9' (                normal )                 Geneva '9' (                normal )                 Geneva '9' (                bold )                 Geneva '9' (                normal )                 Geneva '9' (                normal ) '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '0' '1' '1' '1' '1' '0' '0' '-39' '4' '-40' '0' '1' '2' '1' '8' '0' '0' '0' '2'                 1000111000000000000100000111000;
+	MatchChar 00 .;
+	EntryInterpretation 01;
+	ColorOptions 00;
+	TreeTools '0' '5' '4' '0' '10' '4' '0'                 00100111111101110;
+	EditorTools '0' '0' '0' '1000' '0' '0' '6' '3' '0'                 100000101110001;
+	PairAlign '2' '2' '3' '2' '1' '1' '2' '1' '3'                 1010;
+	BothTools '1';
+
+END;
+BEGIN ASSUMPTIONS;
+	OPTIONS  DEFTYPE =                unord PolyTcount =                MINSTEPS;
+	TYPESET * UNTITLED   =  unord:  1 -  382;
+
+END;
+
+BEGIN MESQUITECHARMODELS;
+	ProbModelSet * UNTITLED   =  'Mk1 (est.)':  1 -  382;
+END;
+
+Begin MESQUITE;
+		MESQUITESCRIPTVERSION 2;
+		TITLE AUTO;
+		tell ProjectCoordinator;
+		getEmployee #mesquite.minimal.ManageTaxa.ManageTaxa;
+		tell It;
+			setID 0 5749286926902316461 WM1148b79af636;
+		endTell;
+		getEmployee #mesquite.charMatrices.ManageCharacters.ManageCharacters;
+		tell It;
+			setID 0 7273041429729163753 WM1148b79af8a0;
+			checksum 0 1225167708 WM1148b79af8a0;
+		endTell;
+		getWindow;
+		tell It;
+			setResourcesState false true 80;
+			setPopoutState 400;
+			setExplanationSize 0;
+			setAnnotationSize 0;
+			setFontIncAnnot 0;
+			setFontIncExp 0;
+			setSize 368 451;
+			setLocation 12 30;
+			setFont SanSerif;
+			setFontSize 10;
+		endTell;
+		getEmployee  #mesquite.charMatrices.BasicDataWindowCoord.BasicDataWindowCoord;
+		tell It;
+			showDataWindow #7273041429729163753 #mesquite.charMatrices.BasicDataWindowMaker.BasicDataWindowMaker;
+			tell It;
+				getWindow;
+				tell It;
+					popAsTile false;
+					popOut;
+					setExplanationSize 20;
+					setAnnotationSize 20;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 1007 489;
+					setLocation 176 27;
+					setFont SanSerif;
+					setFontSize 10;
+					getToolPalette;
+					tell It;
+						setTool multiBlockSplitter;
+					endTell;
+					setTool multiBlockSplitter;
+					colorCells  #mesquite.molec.ColorByNumber.ColorByNumber;
+				tell It;
+					setNumberTask  #mesquite.molec.AminoAcidProperties.AminoAcidProperties;
+					tell It;
+						setProperty  #mesquite.molec.AAHydrophobicity.AAHydrophobicity;
+					endTell;
+					setWindowWidth 15;
+				endTell;
+					colorRowNames  #mesquite.charMatrices.TaxonGroupColor.TaxonGroupColor;
+					colorColumnNames  #mesquite.charMatrices.CharGroupColor.CharGroupColor;
+					colorText  #mesquite.charMatrices.NoColor.NoColor;
+					setBackground White;
+					toggleShowNames on;
+					toggleShowTaxonNames on;
+					toggleTight on;
+					toggleThinRows off;
+					toggleShowChanges on;
+					toggleSeparateLines off;
+					toggleShowStates on;
+					toggleAutoWCharNames off;
+					toggleShowDefaultCharNames off;
+					toggleConstrainCW on;
+					setColumnWidth 16;
+					toggleBirdsEye off;
+					toggleAllowAutosize off;
+					toggleColorsPanel off;
+					toggleLinkedScrolling on;
+					toggleScrollLinkedTables off;
+				endTell;
+				showWindow;
+				getEmployee #mesquite.charMatrices.ColorCells.ColorCells;
+				tell It;
+					setColor Red;
+					removeColor off;
+				endTell;
+				getEmployee #mesquite.categ.StateNamesStrip.StateNamesStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.AnnotPanel.AnnotPanel;
+				tell It;
+					togglePanel off;
+				endTell;
+				getEmployee #mesquite.charMatrices.CharReferenceStrip.CharReferenceStrip;
+				tell It;
+					showStrip off;
+				endTell;
+				getEmployee #mesquite.charMatrices.QuickKeySelector.QuickKeySelector;
+				tell It;
+					autotabOff;
+				endTell;
+				getEmployee #mesquite.align.AlignToDropped.AlignToDropped;
+				tell It;
+					gapCosts 8 3 2 2;
+					subCosts  5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5 5;
+				endTell;
+				getEmployee #mesquite.molec.SequenceInfoEditor.SequenceInfoEditor;
+				tell It;
+					panelOpen false;
+				endTell;
+			endTell;
+		endTell;
+		newAssistant  #mesquite.basic.ExamplesNavigator.ExamplesNavigator;
+		tell It;
+			setNextFileName '04-gcContentTaxa.nex';
+			setPrevFileName '03-gcContentBirdsEye.nex';
+			getWindow;
+			tell It;
+					setExplanationSize 0;
+					setAnnotationSize 0;
+					setFontIncAnnot 0;
+					setFontIncExp 0;
+					setSize 368 434;
+					setLocation 12 30;
+					setFont SanSerif;
+					setFontSize 10;
+					setActive;
+				setExplanation 'This matrix is of cytochrome B amino acid sequences.  In this case the coloring is amino acid hydrophobicity, with a moving window of 15 sites.';
+				setTitle Amino_Acid_hydrophobicity;
+				toggleFileNames off;
+				setPrevButtonName Previous;
+				setNextButtonName Next;
+			endTell;
+			showWindow;
+		endTell;
+		endTell;
+end;
+
+

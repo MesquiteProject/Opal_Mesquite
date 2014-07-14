@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="Source"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="Source/mesquite/opal/jars/Opal.jar"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/MesquiteCore"/>
+	<classpathentry kind="output" path="Mesquite_Folder"/>
+</classpath>
