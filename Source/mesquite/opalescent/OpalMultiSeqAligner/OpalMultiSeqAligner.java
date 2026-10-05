@@ -15,6 +15,7 @@ import java.awt.event.*;
 import opal.IO.CostMatrix;
 import mesquite.opalescent.lib.OpalAligner;
 import mesquite.opalescent.lib.OpalUtil;
+import mesquite.lib.ui.*;
 import mesquite.lib.*;
 import mesquite.align.lib.*;
 
